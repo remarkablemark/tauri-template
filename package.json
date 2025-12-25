@@ -1,0 +1,26 @@
+{
+  "name": "tauri-template",
+  "private": true,
+  "version": "1.0.0-alpha",
+  "type": "module",
+  "scripts": {
+    "build": "tauri build",
+    "build:web": "tsc && vite build",
+    "dev": "tauri dev",
+    "dev:android": "tauri android dev",
+    "dev:ios": "tauri ios dev",
+    "init:android": "tauri android init",
+    "init:ios": "tauri ios init",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "vite": "^6.0.3",
+    "typescript": "~5.6.2"
+  }
+}
