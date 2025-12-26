@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/remarkablemark/tauri-template/blob/master/src-tauri/icons/icon.png" width="150" alt="Tauri Template">
+  <img src="src-tauri/icons/icon.png" width="150" alt="Tauri Template">
 </p>
 
 # Tauri Template
@@ -37,13 +37,22 @@ Install the dependencies:
 npm install
 ```
 
-## IDE
+Rename the project:
 
-Recommended IDE setup:
+```sh
+git grep -l tauri-template | xargs sed -i '' -e 's/tauri-template/my-app/g'
+git grep -l 'Tauri Template' | xargs sed -i '' -e 's/Tauri Template/My App/g'
+```
 
-- [VS Code](https://code.visualstudio.com/)
-- [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
-- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Set the version:
+
+```sh
+git grep -l '"1.0.0"' | xargs sed -i '' -e 's/"1.0.0"/"1.2.3"/g'
+```
+
+Update the files:
+
+- [ ] `src-tauri/icons/`
 
 ## Available Scripts
 
@@ -56,6 +65,14 @@ Runs the app for development.
 ### `npm run build`
 
 Builds the app for production.
+
+## IDE
+
+Recommended IDE setup:
+
+- [VS Code](https://code.visualstudio.com/)
+- [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
 ## License
 
