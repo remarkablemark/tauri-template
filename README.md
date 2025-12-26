@@ -21,3 +21,15 @@ brew install node
 - [VS Code](https://code.visualstudio.com/)
 - [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app for development.
+
+### `npm run build`
+
+Builds the app for production.

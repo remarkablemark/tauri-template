@@ -5,7 +5,7 @@
   "identifier": "com.remarkablemark.tauri-template",
   "build": {
     "beforeBuildCommand": "npm run build:web",
-    "beforeDevCommand": "npm start",
+    "beforeDevCommand": "npm run dev:web",
     "devUrl": "http://localhost:1420",
     "frontendDist": "../dist"
   },

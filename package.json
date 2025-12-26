@@ -10,10 +10,9 @@
     "dev": "tauri dev",
     "dev:android": "tauri android dev",
     "dev:ios": "tauri ios dev",
+    "dev:web": "vite",
     "init:android": "tauri android init",
-    "init:ios": "tauri ios init",
-    "preview": "vite preview",
-    "start": "vite"
+    "init:ios": "tauri ios init"
   },
   "dependencies": {
     "@tauri-apps/api": "2.9.1",
