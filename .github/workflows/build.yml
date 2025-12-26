@@ -9,7 +9,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        # https://tauri.app/distribute/pipelines/github/#example-workflow
         os: [macos-latest, ubuntu-latest, windows-latest]
 
     steps:
@@ -30,9 +29,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
 
-      # https://github.com/tauri-apps/tauri-action
+      # https://tauri.app/distribute/pipelines/github/#example-workflow
       - name: Build app
-        uses: tauri-apps/tauri-action@v0
+        run: npm run build
+        env:
+          # https://tauri.app/distribute/sign/macos/#ad-hoc-signing
+          APPLE_SIGNING_IDENTITY: '-'
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
