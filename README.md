@@ -1,6 +1,12 @@
+<p align="center">
+  <img src="https://github.com/remarkablemark/tauri-template/blob/master/src-tauri/icons/icon.png" width="150" alt="Tauri Template">
+</p>
+
 # Tauri Template
 
-Template to get started developing with [Tauri](https://tauri.app/) in vanilla HTML, CSS and TypeScript.
+[![build](https://github.com/remarkablemark/tauri-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/tauri-template/actions/workflows/build.yml)
+
+🔗 Template to develop with [Tauri](https://tauri.app/) in vanilla HTML, CSS and TypeScript.
 
 ## Prerequisites
 
