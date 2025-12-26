@@ -1,6 +1,6 @@
 [package]
 name = "tauri-template"
-version = "1.0.0-alpha"
+version = "1.0.0"
 description = "Tauri Template"
 authors = ["you"]
 edition = "2021"
