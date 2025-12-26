@@ -16,7 +16,24 @@ Install [Node.js](https://nodejs.org/):
 brew install node
 ```
 
-## Recommended IDE Setup
+## Install
+
+Clone the repository:
+
+```sh
+git clone https://github.com/remarkablemark/tauri-template.git
+cd tauri-template
+```
+
+Install the dependencies:
+
+```sh
+npm install
+```
+
+## IDE
+
+Recommended IDE setup:
 
 - [VS Code](https://code.visualstudio.com/)
 - [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode)
@@ -33,3 +50,7 @@ Runs the app for development.
 ### `npm run build`
 
 Builds the app for production.
+
+## License
+
+[MIT](LICENSE)
