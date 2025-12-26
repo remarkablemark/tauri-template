@@ -1,0 +1,6 @@
+* @remarkablemark
+
+/package-lock.json
+/package.json
+/src-tauri/Cargo.lock
+/src-tauri/Cargo.toml
