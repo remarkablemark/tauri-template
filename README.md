@@ -52,7 +52,9 @@ git grep -l '"1.0.0"' | xargs sed -i '' -e 's/"1.0.0"/"1.2.3"/g'
 
 Update the files:
 
+- [ ] `src-tauri/Cargo.toml`
 - [ ] `src-tauri/icons/`
+- [ ] `src-tauri/tauri.conf.json`
 
 ## Available Scripts
 
