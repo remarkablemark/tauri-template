@@ -50,6 +50,12 @@ Set the version:
 git grep -l '"1.0.0"' | xargs sed -i '' -e 's/"1.0.0"/"1.2.3"/g'
 ```
 
+Add `app-icon.png` and [generate icons](https://tauri.app/develop/icons/):
+
+```sh
+npx tauri icon
+```
+
 Update the files:
 
 - [ ] `src-tauri/Cargo.toml`
