@@ -41,6 +41,13 @@ Rename the project:
 
 ```sh
 git grep -l tauri-template | xargs sed -i '' -e 's/tauri-template/my-app/g'
+```
+
+```sh
+git grep -l 'tauri_template' | xargs sed -i '' -e 's/tauri_template/my_app/g'
+```
+
+```sh
 git grep -l 'Tauri Template' | xargs sed -i '' -e 's/Tauri Template/My App/g'
 ```
 
