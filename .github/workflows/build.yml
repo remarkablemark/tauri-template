@@ -50,5 +50,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: ${{ matrix.os }}
+          name: ${{ runner.os }}
           path: src-tauri/target/release/bundle
