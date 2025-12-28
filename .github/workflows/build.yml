@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm ci --prefer-offline
 
-      - name: Install Ubuntu dependencies
+      - name: Install Linux dependencies
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
