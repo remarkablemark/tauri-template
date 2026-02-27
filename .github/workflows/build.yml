@@ -48,7 +48,7 @@ jobs:
           APPLE_SIGNING_IDENTITY: '-'
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ runner.os }}
           path: src-tauri/target/release/bundle
